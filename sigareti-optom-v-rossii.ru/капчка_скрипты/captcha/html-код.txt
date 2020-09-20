@@ -1,0 +1,7 @@
+   <label>¬ведите буквы: </label>
+   <div><div style="padding: 0 3px 5px 3px; float: left;">
+   <img id="capT" src="captcha/captcha.php" width='75' height='25'>
+   </div>
+   <div class="input_capT" id="cor5">
+   <input value="" id="captcha" type="text" name="captcha" />
+   </div> </div>

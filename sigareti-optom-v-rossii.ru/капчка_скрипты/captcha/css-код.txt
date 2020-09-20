@@ -1,0 +1,23 @@
+/* CSS стили длякапчи */
+
+.input_capT {
+	    width: 98px;
+		height: 20px;
+		overflow: hidden;
+		background: white;
+		border: solid 1px #DFE2E5;
+		margin: 5px 0 10px 10px;
+		box-shadow: 0 0 5px #ccc;
+		-webkit-box-shadow: 0 0 5px #ccc;
+		-moz-box-shadow: 0 0 5px #ccc;
+}
+
+.input_capT input {
+		width: 100px;
+		height: 26px;
+		background: white;
+		margin: -3px 0 0 -5px;
+		padding: 0px 8px;
+		border: none;
+		background: transparent;
+}

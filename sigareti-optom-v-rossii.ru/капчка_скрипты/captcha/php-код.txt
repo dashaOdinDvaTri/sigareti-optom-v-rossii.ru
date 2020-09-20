@@ -1,0 +1,8 @@
+		$captcha = addslashes($_POST['captcha']);
+		$captcha = htmlspecialchars($captcha);
+		$captcha = stripslashes($captcha);
+		$captcha = trim($captcha);
+
+//Проверка правильности капчи!
+if ($captcha != $_SESSION['rand']) {
+$log.="<li>Вы ввели неверные буквы с картинки!</li>"; $error="yes"; }

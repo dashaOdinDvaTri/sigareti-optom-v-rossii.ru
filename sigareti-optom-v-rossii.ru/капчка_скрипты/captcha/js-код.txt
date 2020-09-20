@@ -1,0 +1,10 @@
+    var id = Math.floor(Math.random()*10000);
+    var captSRC = "captcha/captcha.php?id="+id;
+
+    var captcha = $("#captcha").val();
+
+    data: {"posName": posName, "posEmail": posEmail, "posText": posText, "captcha": captcha},
+
+    $("#captcha").val("");
+
+    $("#capT").attr('src',captSRC);
